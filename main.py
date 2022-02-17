@@ -1,3 +1,4 @@
+import os
 import discord
 import names
 import random
@@ -35,8 +36,9 @@ async def on_message(message):
 
   
   
+my_secret = os.environ['token']
+client.run(my_secret)
 
-client.run('OTQzOTM0NDQ2NjIzNjgyNjMx.Yg6RdQ.ou4xuxWjuoDWD631ou8WFHcuoSg')
                                 
     
 
